@@ -14,6 +14,7 @@ class Admin extends Component {
             <div>
                 <h1>admin</h1>
                 <pre>{JSON.stringify(this.props.reduxState.userComments, null, 2)}</pre>
+                {/* {this.props.reduxState.userComments && this.props.reduxState.userComments.map(comments => <p key={comments.id}>{comments.first_name}</p>)} */}git 
             </div>
         )
     }
